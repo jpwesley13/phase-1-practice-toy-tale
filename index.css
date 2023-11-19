@@ -19,6 +19,8 @@ body {
 
 #toy-collection {
   margin: 2rem;
+   display: flex; /*This is how I should be making images wrap properly instead of falling in a line, but for the sake of this lab I want to do it all in js*/
+flex-wrap: wrap; 
 }
 
 .card {
